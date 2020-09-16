@@ -38,15 +38,15 @@ public class SortColumns{
         return indices;	
 	}
 	
-	public static void main(String[] args){
-		//create object of SortColumns class
+    public static void main(String[] args){
+        //create object of SortColumns class
         SortColumns sortCol = new SortColumns();
 
         String [] stringList1 = new String[]{"cba", "daf", "ghi"};
         String [] stringList2 = new String[]{"a", "b"};
         String [] stringList3 = new String[]{"zyx", "wvu", "tsr"};
         String [] stringList4 = new String[]{"Captain", "Marvel", "saved", "the", "Avengers"};
-	    
+
         System.out.println("List 1");
         // Declare an instance of List.
         List<Integer> myList1 = sortCol.minDeletionSize(stringList1);
