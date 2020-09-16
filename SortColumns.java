@@ -40,29 +40,29 @@ public class SortColumns{
 	
 	public static void main(String[] args){
 		//create object of SortColumns class
-		SortColumns sortCol = new SortColumns();
+        SortColumns sortCol = new SortColumns();
 
-		String [] stringList1 = new String[]{"cba", "daf", "ghi"};
-		String [] stringList2 = new String[]{"a", "b"};
-		String [] stringList3 = new String[]{"zyx", "wvu", "tsr"};
-		String [] stringList4 = new String[]{"Captain", "Marvel", "saved", "the", "Avengers"};
+        String [] stringList1 = new String[]{"cba", "daf", "ghi"};
+        String [] stringList2 = new String[]{"a", "b"};
+        String [] stringList3 = new String[]{"zyx", "wvu", "tsr"};
+        String [] stringList4 = new String[]{"Captain", "Marvel", "saved", "the", "Avengers"};
 	    
-	    System.out.println("List 1");
-	    // Declare an instance of List.
-		List<Integer> myList1 = sortCol.minDeletionSize(stringList1);
-		//print list of indices of sorted columns of stringList
-		System.out.println(myList1.toString());
+        System.out.println("List 1");
+        // Declare an instance of List.
+        List<Integer> myList1 = sortCol.minDeletionSize(stringList1);
+        //print list of indices of sorted columns of stringList
+        System.out.println(myList1.toString());
 
-		System.out.println("List 2");
-	    List<Integer> myList2 = sortCol.minDeletionSize(stringList2);
-	    System.out.println(myList2.toString());
+        System.out.println("List 2");
+        List<Integer> myList2 = sortCol.minDeletionSize(stringList2);
+        System.out.println(myList2.toString());
 
-	    System.out.println("List 3");
-	    List<Integer> myList3 = sortCol.minDeletionSize(stringList3);
-		System.out.println(myList3.toString());
+        System.out.println("List 3");
+        List<Integer> myList3 = sortCol.minDeletionSize(stringList3);
+        System.out.println(myList3.toString());
 
-	    System.out.println("List 4");
-	    List<Integer> myList4 = sortCol.minDeletionSize(stringList4);
-		System.out.println(myList4.toString());
+        System.out.println("List 4");
+        List<Integer> myList4 = sortCol.minDeletionSize(stringList4);
+        System.out.println(myList4.toString());
 	}
 }
